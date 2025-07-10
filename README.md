@@ -31,19 +31,29 @@ Screenshot: Windows features enabled for IIS and osTicket compatibility.
 
 🔧 Installation Steps
 1️⃣ Install IIS and PHP
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="IIS Installation"/> </p>
+
+![image](https://github.com/user-attachments/assets/30047273-92a9-4edf-909b-3df6e7042f2a)
+
+
 Install IIS through "Turn Windows features on or off", and verify PHP is installed and configured correctly using phpinfo().
 
 2️⃣ Download and Extract osTicket
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="osTicket Setup Files"/> </p>
+
+![image](https://github.com/user-attachments/assets/26eb1120-57d5-43fb-9fd3-a4a5e2203401)
+
+
 Download osTicket from the official site, extract files into C:\inetpub\wwwroot\osticket, and configure permissions.
 
 3️⃣ Create MySQL Database for osTicket
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="MySQL Setup"/> </p>
+
+![image](https://github.com/user-attachments/assets/83c2a02c-e15c-4a58-b8a3-6f4b1200d29e)
+
 Using MySQL Workbench or command-line, create a database and user with appropriate permissions for osTicket.
 
 4️⃣ Run osTicket Web Installer
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Web Installer"/> </p>
+
+![image](https://github.com/user-attachments/assets/60c477bc-25b7-4d8f-a9c2-b74bb2e97c9e)
+
 Navigate to http://localhost/osticket/setup in your browser and complete the installer with your database and admin details.
 
 ✅ Summary
